@@ -14,9 +14,7 @@ dependencies = [
     "numpy",
 ]
 
-[
-tool.setuptools.package-data
-]
+[tool.setuptools.package-data] 
 ci_course = ["data/*.csv"]
 
 [project.optional-dependencies]
